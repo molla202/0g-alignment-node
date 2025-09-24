@@ -57,7 +57,7 @@ nano $HOME/0g-ai/config/.env
 ### 2. .env Dosyası İçeriği:
 ```bash
 ZG_ALIGNMENT_NODE_LOG_LEVEL="info"
-ZG_ALIGNMENT_NODE_SERVICE_PORT="8080"
+ZG_ALIGNMENT_NODE_SERVICE_IP="http://0.0.0.0:8080"
 ZG_ALIGNMENT_NODE_SERVICE_PRIVATEKEY="your_private_key_here"
 ```
 ```bash
@@ -66,7 +66,7 @@ nano $HOME/0g-ai/config/config.toml
 ```
 ```bash
 ZG_ALIGNMENT_NODE_LOG_LEVEL="info"
-ZG_ALIGNMENT_NODE_SERVICE_PORT="8080"
+ZG_ALIGNMENT_NODE_SERVICE_IP="http://0.0.0.0:8080"
 ZG_ALIGNMENT_NODE_SERVICE_PRIVATEKEY="your_private_key_here"
 ```
 
