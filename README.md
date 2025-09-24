@@ -70,6 +70,12 @@ Bu portun açık olduğundan emin olun:
 - VPS sağlayıcı firewall'larında
 - Yerel sunucu firewall kurallarında
 
+## Register.
+```
+0g-alignment-node registerOperator --key privatey-key-yaz --token-id YOUR_NFT_TOKEN_ID --commission 10 --chain-id 42161 --rpc https://arb1.arbitrum.io/rpc --contract 0xdD158B8A76566bC0c342893568e8fd3F08A9dAac --mainnet
+```
+
+NOT: daha sonraki işlemleri https://claim.0gfoundation.ai/ yapıcaksınız.
 ## Adım 4: Systemd Servisi Oluşturma
 
 Node'unuzu systemd servisi olarak çalıştırmak için:
