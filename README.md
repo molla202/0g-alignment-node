@@ -26,10 +26,12 @@ mkdir -p $HOME/0g-ai/{bin,config,logs}
 cd $HOME/0g-ai
 
 # En son 0G alignment node binary'sini indirin
-wget -O bin/0g-alignment-node https://github.com/0gfoundation/alignment-node-release/releases/latest/0g-alignment-node
+wget https://github.com/0gfoundation/alignment-node-release/releases/download/v1.0.0/alignment-node.tar.gz
+tar -xzf alignment-node.tar.gz
 
 # Çalıştırma izni verin
-chmod +x bin/0g-alignment-node
+chmod +x 0g-alignment-node
+mv 0g-alignment-node $HOME/0g-ai/bin/0g-alignment-node
 ```
 
 ### 3. Sistem genelinde erişim için symbolic link oluşturun:
