@@ -12,6 +12,8 @@
 | İnternet | 10 Mbps bağlantı |
 | Network | Port dışarıdan erişilebilir olmalı (firewall'da yapılandır) |
 
+NOT: private key işlemelride baştaki 0X kullanmıyoruz.
+
 ## Adım 1: Dizin Yapısı ve Binary Kurulumu
 
 ### 1. Ana dizini ve alt klasörleri oluşturun:
