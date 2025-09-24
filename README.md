@@ -30,8 +30,8 @@ wget https://github.com/0gfoundation/alignment-node-release/releases/download/v1
 tar -xzf alignment-node.tar.gz
 
 # Çalıştırma izni verin
-chmod +x 0g-alignment-node
 mv alignment-node/0g-alignment-node $HOME/0g-ai/bin/0g-alignment-node
+chmod +x $HOME/0g-ai/bin/0g-alignment-node
 rm -rf alignment-node alignment-node.tar.gz
 ```
 
