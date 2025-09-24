@@ -31,7 +31,8 @@ tar -xzf alignment-node.tar.gz
 
 # Çalıştırma izni verin
 chmod +x 0g-alignment-node
-mv 0g-alignment-node $HOME/0g-ai/bin/0g-alignment-node
+mv alignment-node/0g-alignment-node $HOME/0g-ai/bin/0g-alignment-node
+rm -rf alignment-node alignment-node.tar.gz
 ```
 
 ### 3. Sistem genelinde erişim için symbolic link oluşturun:
