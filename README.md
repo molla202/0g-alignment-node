@@ -264,6 +264,7 @@ $HOME/0g-ai/
 │   └── 0g-alignment-node          # Binary dosyası
 ├── config/
 │   └── .env                       # Yapılandırma dosyası
+│   └── config.toml
 └── logs/                          # Log dosyaları (opsiyonel)
     ├── node.log
     └── node-error.log
