@@ -54,9 +54,18 @@ nano $HOME/0g-ai/config/.env
 
 ### 2. .env Dosyası İçeriği:
 ```bash
-export ZG_ALIGNMENT_NODE_LOG_LEVEL=info
-export ZG_ALIGNMENT_NODE_SERVICE_PORT=8080
-export ZG_ALIGNMENT_NODE_SERVICE_PRIVATEKEY=your_private_key_here
+ZG_ALIGNMENT_NODE_LOG_LEVEL="info"
+ZG_ALIGNMENT_NODE_SERVICE_PORT="8080"
+ZG_ALIGNMENT_NODE_SERVICE_PRIVATEKEY="your_private_key_here"
+```
+```bash
+# Config dizinine config.toml dosyası oluştur
+nano $HOME/0g-ai/config/config.toml
+```
+```bash
+ZG_ALIGNMENT_NODE_LOG_LEVEL="info"
+ZG_ALIGNMENT_NODE_SERVICE_PORT="8080"
+ZG_ALIGNMENT_NODE_SERVICE_PRIVATEKEY="your_private_key_here"
 ```
 
 **Önemli Notlar:**
