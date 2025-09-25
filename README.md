@@ -14,6 +14,10 @@
 
 NOT: private key işlemelride baştaki 0X kullanmıyoruz.
 
+# LOGLARINIZI KİMSEYLE PAYLAŞMAYINIZ... KİMSEYLE
+
+# CoreNode Operator Adres : 0xb984B1f158963417467900b4Be868f83deA007fC
+
 ## Adım 1: Dizin Yapısı ve Binary Kurulumu
 
 ### 1. Ana dizini ve alt klasörleri oluşturun:
@@ -85,6 +89,13 @@ Bu portun açık olduğundan emin olun:
 - Yerel sunucu firewall kurallarında
 
 ## Register.
+```
+cd
+cd $HOME/0g-ai/config
+```
+```
+0g-alignment-node approve --mainnet --key privatey-key-yaz --chain-id 42161 --rpc https://arb1.arbitrum.io/rpc --contract 0xdD158B8A76566bC0c342893568e8fd3F08A9dAac --destNode cüzdan-adresi-yaz --tokenIds YOUR_NFT_TOKEN_ID
+```
 ```
 0g-alignment-node registerOperator --key privatey-key-yaz --token-id YOUR_NFT_TOKEN_ID --commission 10 --chain-id 42161 --rpc https://arb1.arbitrum.io/rpc --contract 0xdD158B8A76566bC0c342893568e8fd3F08A9dAac --mainnet
 ```
@@ -165,6 +176,8 @@ sudo journalctl -u 0g-alignment-node -f
 sudo journalctl -u 0g-alignment-node -n 100
 ```
 
+# LOGLARINIZI KİMSEYLE PAYLAŞMAYINIZ... KİMSEYLE
+
 ## Node İzleme
 
 ### Node durumunu kontrol etme:
@@ -233,9 +246,7 @@ cp $HOME/0g-ai/bin/0g-alignment-node $HOME/0g-ai/bin/0g-alignment-node.backup
 
 ### 3. Yeni binary'yi indirip değiştirin:
 ```bash
-cd $HOME/0g-ai
-wget -O bin/0g-alignment-node https://github.com/0gfoundation/alignment-node-release/releases/latest/0g-alignment-node
-chmod +x bin/0g-alignment-node
+...
 
 # Symbolic link otomatik olarak yeni binary'yi işaret edecek
 ```
