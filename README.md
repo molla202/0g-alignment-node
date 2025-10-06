@@ -111,7 +111,6 @@ sudo tee /etc/systemd/system/0g-alignment-node.service > /dev/null <<EOF
 [Unit]
 Description=0G AI Alignment Node
 After=network.target
-Wants=network.target
 
 [Service]
 Type=simple
