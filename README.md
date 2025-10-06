@@ -121,13 +121,6 @@ EnvironmentFile=$HOME/0g-ai/config/.env
 ExecStart=$(which 0g-alignment-node) start --mainnet
 Restart=always
 RestartSec=10
-StandardOutput=journal
-StandardError=journal
-SyslogIdentifier=0g-alignment-node
-
-# Log dosyasını da tutmak isterseniz (opsiyonel)
-# StandardOutput=append:$HOME/0g-ai/logs/node.log
-# StandardError=append:$HOME/0g-ai/logs/node-error.log
 
 [Install]
 WantedBy=multi-user.target
